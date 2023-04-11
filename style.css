@@ -1,0 +1,41 @@
+#form-div{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    background-color: #00989d;
+}
+
+#first-name-input {
+    width: 15.5rem;
+    margin: 1rem 0 0 0;
+}
+
+
+#submit-button{
+    width: 16rem;
+    margin: 1rem 0 0 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.column{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lower-half{
+    display: flex;
+    flex-direction: column;
+    height: 6.5rem;
+}
+
+#options{
+    margin: 2.85rem 0 0 0;  /*375 - 6.25*/
+}

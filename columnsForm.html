@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>columns form</title>
+    <link rel="stylesheet" href=".//style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <label for="fname">First name:</label>
+            <input type="text" id="input">
+            <label for="lname">Last name:</label>
+            <input type="text" id="input">
+            <div class="lower-half">
+
+
+                <label for="lname">radio 1:
+                    <input type="radio" id="radio">
+                </label>
+
+                <label for="lname">radio 2:
+                    <input type="radio" id="radio">
+                </label>
+
+                <label for="lname">checkbox 1:
+                    <input type="checkbox" id="checkout">
+                </label>
+
+                <label for="lname">checkbox 2:
+                    <input type="checkbox" id="checkout">
+                </label>
+            </div>
+
+            <input type="submit" value="button" id="submit">
+        </div>
+
+        <div class="column">
+            <label for="fname">Password:</label>
+            <input type="password" id="input">
+            <label for="lname">Confirm Password:</label>
+            <input type="password" id="input">
+
+            <label for="fname">description</label>
+            <textarea name="description" id="description" cols="10" rows="5"></textarea>
+            <input type="submit" values="submit" id="submit">
+        </div>
+
+        <div class="column">
+            <label for="fname">Email:</label>
+            <input type="text" id="input">
+            <label for="lname">Phone:</label>
+            <input type="text" id="input">
+
+            <div class="lower-half">
+
+            
+            <select name="options" id="options">
+                <option value="option 1">option 1</option>
+                <option value="option 2">option 2</option>
+                <option value="option 3">option 3</option>
+            </select>
+</div>
+            <input type="submit" value="upload" id="submit">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
